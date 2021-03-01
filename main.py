@@ -1,17 +1,17 @@
 class Point:
-  def __init__(self, x, y):
-    self.x = x
-    self.y = y
-    print("I'm a constructed point")
-    print("My x is : {}".format(self.x))
-    print("My y is : {}".format(self.y))
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+        print("I'm a constructed point")
+        print("My x is : {}".format(self.x))
+        print("My y is : {}".format(self.y))
 
-p1 = Point(2,9)
+# Get number of points
 
-shape = []
+# Get position of each point
 
-shape.append( p1 )
+# Display the area of the shape
 
-for point in shape:
-    print(point.x)
-    print(point.y)
+# Display the center of gravity
+
+# Display if the cow is outside the fence or not
