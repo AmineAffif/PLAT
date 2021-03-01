@@ -28,14 +28,14 @@ for i in range(0, numOfPoints):
 
     # insert point into the shape list
     shape.append(Point(x,y))
-    print("je rentre un point")
+    print("I inserted a point")
+    print("\n")
 
 print("--------------------------------------------------")
 print("--------------------------------------------------")
 print("--------------------------------------------------")
 
-for point in shape:
-    print(point.x)
+
     
 
 # Display the area of the shape
