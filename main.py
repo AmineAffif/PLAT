@@ -1,3 +1,6 @@
+#importing libraries
+
+
 # initialilasing the Point class
 class Point:
 
@@ -44,6 +47,21 @@ getPointsPosition()
     
 
 # Display the area of the shape
+print("------------------------------------------")
+
+
+area = 0
+for i in range(len(shape)-1):
+        area += (shape[i].x * shape[i+1].y - shape[i+1].x * shape[i].y)/2
+print(abs(area))
+
+
+print("------------------------------------------")
+
+
+
+print("------------------------------------------")
+
 
 # Display the center of gravity
 
