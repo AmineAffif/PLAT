@@ -17,11 +17,17 @@ numOfPoints = int(input("Enter the number of fence post: "))
 while numOfPoints < 0:
     numOfPoints = numOfPoints = int(input("Enter the number of fence post: "))
 
-# Get position of each point
-
+# Get X and Y position of each points
 shape = list()
+
 for i in range(0, numOfPoints):
-    shape.append(Point(1,5))
+    print("Enter X position of the fence post {}".format(i+1))
+    x = float(input(""))
+    print("Enter Y position of the fence post {}".format(i+1))
+    y = float(input(""))
+
+    # insert point into the shape list
+    shape.append(Point(x,y))
     print("je rentre un point")
 
 print("--------------------------------------------------")
