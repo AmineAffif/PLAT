@@ -7,3 +7,11 @@ class Point:
     print("My y is : {}".format(self.y))
 
 p1 = Point(2,9)
+
+shape = []
+
+shape.append( p1 )
+
+for point in shape:
+    print(point.x)
+    print(point.y)
