@@ -9,31 +9,36 @@ class Point:
         print("My x is : {}".format(self.x))
         print("My y is : {}".format(self.y))
 
-# Creating the list that handles all points
-shape = []
+
 
 # Get number of points
-numOfPoints = int(input("Enter the number of fence post: "))
-while numOfPoints < 0:
-    numOfPoints = numOfPoints = int(input("Enter the number of fence post: "))
-
-# Get X and Y position of each points
-shape = list()
-
-for i in range(0, numOfPoints):
-    print("Enter X position of the fence post {}".format(i+1))
-    x = float(input(""))
-    print("Enter Y position of the fence post {}".format(i+1))
-    y = float(input(""))
-
-    # insert point into the shape list
-    shape.append(Point(x,y))
-    print("I inserted a point")
+def getNumOfPoints():
+    # Creating the list that handles all points
+    global shape
+    shape = list()
+    # input the number of points
+    global numOfPoints
+    numOfPoints = int(input("Enter the number of fence post: "))
+    while numOfPoints < 0:
+        numOfPoints = numOfPoints = int(input("Enter the number of fence post: "))
     print("\n")
 
-print("--------------------------------------------------")
-print("--------------------------------------------------")
-print("--------------------------------------------------")
+getNumOfPoints()
+
+# Get X and Y position of each points
+def getPointsPosition():
+    for i in range(0, numOfPoints):
+        print("Enter X position of the fence post {}".format(i+1))
+        x = float(input(""))
+        print("Enter Y position of the fence post {}".format(i+1))
+        y = float(input(""))
+
+        # insert point into the shape list
+        shape.append(Point(x,y))
+        print("I inserted a point")
+        print("\n")
+
+getPointsPosition()
 
 
     
