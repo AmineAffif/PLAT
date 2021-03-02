@@ -49,20 +49,26 @@ getPointsPosition()
 # Display the area of the shape
 print("------------------------------------------")
 
-
 area = 0
 for i in range(len(shape)-1):
         area += (shape[i].x * shape[i+1].y - shape[i+1].x * shape[i].y)/2
-print(abs(area))
-
-
-print("------------------------------------------")
-
-
+print("The area of the fence is : {}".format(abs(area)))
 
 print("------------------------------------------")
 
 
 # Display the center of gravity
+x_center = 0
+y_center = 0
+
+for i in range(len(shape)-1):
+        x_center += ((shape[i].x + shape[i+1].x) * (shape[i].x * shape[i+1].y - shape[i+1].x * shape[i].y)) * (1/6 * abs(area))
+for i in range(len(shape)-1):
+        y_center += ((shape[i].y + shape[i+1].y) * (shape[i].x * shape[i+1].y - shape[i+1].x * shape[i].y)) * (1/6 * abs(area))
+
+print("Position du centre de gravité :")
+print("X : " + format((abs(x_center))) )
+print("Y : " + format((abs(y_center))) )
+
 
 # Display if the cow is outside the fence or not
