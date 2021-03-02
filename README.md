@@ -75,8 +75,8 @@ Attention : dans ce qui suit, on suppose que les n segments de la clôture sont 
 
 A partir de l’aire A, on calcule l’abscisse Gx du centre de gravité :
 
-![gravity_x_formula](./img/gravity_x.jpg)
+![gravity_x_formula](https://i.ibb.co/hfFwtxQ/gravity-x.jpg)
 
 L’ordonnée Gy du centre de gravité vaut :
 
-![gravity_y_formula](./img/gravity_y.jpg)
+![gravity_y_formula](https://i.ibb.co/6RdNHhv/gravity-y.jpg)
