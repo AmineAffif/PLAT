@@ -2,7 +2,7 @@
 
 >_Projet **Pas de Lait Avant la Traite**_
 
-##Problème à résoudre 🧐
+## Problème à résoudre 🧐
 
 Ceci est la triste histoire d’une vache victime des facéties d’un paysan taquin.
 
@@ -28,7 +28,7 @@ de gravité se situe hors du pré).
 
 **Ces étudiants, c’est nous !**
 
-##La programmation
+## La programmation
 
 Le programme à rédiger accepte en entrée le nombre de piquets formant la clôture, puis les coordonnées cartésiennes
 (x, y) de ces piquets. Elles sont données dans l’ordre, comme si l’on suivait le fil de la clôture, dans le sens inverse
@@ -67,11 +67,11 @@ On donne ci-dessous un exemple d’exécution du programme en mode console sous 
 
 Attention : dans ce qui suit, on suppose que les n segments de la clôture sont numérotés de 0 à n-1.
 
-####Aire d’un polygone régulier
+#### Aire d’un polygone régulier
 
 ![alt](./img/formule_aire.jpg)
 
-####Centre de gravité
+#### Centre de gravité
 
 A partir de l’aire A, on calcule l’abscisse Gx du centre de gravité :
 
