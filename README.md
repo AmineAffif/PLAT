@@ -2,6 +2,8 @@
 
 >_Projet **Pas de Lait Avant la Traite**_
 
+![PLAT project banner](https://i.ibb.co/Z1hvHCS/banner.jpg)
+
 ## Problème à résoudre 🧐
 
 Ceci est la triste histoire d’une vache victime des facéties d’un paysan taquin.
@@ -13,6 +15,8 @@ clôture et positionne la vache dudit Raoul exactement au centre de gravité du 
 Dans un premier temps, quand il s’aperçut de la plaisanterie, Raoul se contenta de bougonner. Puis il se rendit
 compte que, suivant la forme du pré, le centre de gravité pouvait se situer en dehors de la clôture. Dans ce cas, la
 vache peut s’évader puisqu’elle n’est plus cernée par la clôture.
+
+![cow explaination](https://i.ibb.co/KysHXxK/top-view.jpg)
 
 Raoul ne pouvant passer ses nuits à surveiller son pré et sa vache, il décida de faire appel à quelques siens amis,
 étudiants en seconde année de DUT Informatique à l’IUT d’Amiens, qui lui tinrent à peu près ce langage :
