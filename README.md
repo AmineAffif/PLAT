@@ -84,3 +84,65 @@ A partir de l’aire A, on calcule l’abscisse Gx du centre de gravité :
 L’ordonnée Gy du centre de gravité vaut :
 
 ![gravity_y_formula](https://i.ibb.co/6RdNHhv/gravity-y.jpg)
+
+
+Voici l'éxecution du programme en Python :
+>_Avec un test de saisie au début_
+
+
+    Entrez le nombre de pickets : azr
+    Ecrivez un nombre valide
+    Entrez le nombre de pickets : sgesged
+    Ecrivez un nombre valide
+    Entrez le nombre de pickets : 4
+    Super ! On continue
+
+
+    Entrez la position X du picket 1
+    0
+    Entrez la position Y du picket 1
+    0
+    Je suis un picket entre vos mains
+    Ma position X : 0.0
+    Ma position Y : 0.0
+    Picket planté !
+
+
+    Entrez la position X du picket 2
+    0
+    Entrez la position Y du picket 2
+    1
+    Je suis un picket entre vos mains
+    Ma position X : 0.0
+    Ma position Y : 1.0
+    Picket planté !
+
+
+    Entrez la position X du picket 3
+    1
+    Entrez la position Y du picket 3
+    1
+    Je suis un picket entre vos mains
+    Ma position X : 1.0
+    Ma position Y : 1.0
+    Picket planté !
+
+
+    Entrez la position X du picket 4
+    1
+    Entrez la position Y du picket 4
+    0
+    Je suis un picket entre vos mains
+    Ma position X : 1.0
+    Ma position Y : 0.0
+    Picket planté !
+
+
+    ------------------------------------------
+    L'aire est égale à : 1.0
+    ------------------------------------------
+    ------------------------------------------
+    Position du centre de gravité :
+    X : 0.5
+    Y : 0.5
+    ------------------------------------------
