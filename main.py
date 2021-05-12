@@ -11,6 +11,7 @@ class Point:
         print("Ma position X : {}".format(self.x))
         print("Ma position Y : {}".format(self.y))
 
+        
 
 # Get number of points
 def getNumOfPoints():
