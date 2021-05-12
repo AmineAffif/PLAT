@@ -7,7 +7,7 @@ class Point:
     def __init__(self, x, y):
         self.x = x
         self.y = y
-        print("Je suis un picket entre vos mains")
+        print("Je suis un piquet entre vos mains")
         print("Ma position X : {}".format(self.x))
         print("Ma position Y : {}".format(self.y))
 
@@ -20,7 +20,7 @@ def getNumOfPoints():
     # input the number of points
     global numOfPoints
     
-    numOfPoints = input("Entrez le nombre de pickets : ")
+    numOfPoints = input("Entrez le nombre de piquets : ")
 
     #contrôle de saisie regex (entier naturel positif)
     int_pattern = '^[0-9]+$'
@@ -28,7 +28,7 @@ def getNumOfPoints():
     # Tant que saisie invalide
     while int_match == None:
         print("Ecrivez un nombre valide")
-        numOfPoints = input("Entrez le nombre de pickets : ")
+        numOfPoints = input("Entrez le nombre de piquets : ")
         int_match = re.search(int_pattern, numOfPoints)
     
     print("Super ! On continue")
@@ -47,7 +47,7 @@ def getPointsPosition():
     for i in range(0, int(numOfPoints)):
         
         # Saisie coordonée X
-        print("Entrez la position X du picket {}".format(i+1))
+        print("Entrez la position X du piquet {}".format(i+1))
         x = input("")
         float_match = re.search(float_pattern, x)
 
@@ -63,14 +63,14 @@ def getPointsPosition():
         x = float(x)
 
         # Saisie coordonée Y
-        print("Entrez la position Y du picket {}".format(i+1))
+        print("Entrez la position Y du piquet {}".format(i+1))
         y = input("")
         float_match = re.search(float_pattern, y)
 
         # Tant que saisie invalide
         while float_match == None:
             print("-- Ecrivez un nombre valide ! --")
-            print("Entrez la position Y du picket {}".format(i+1))
+            print("Entrez la position Y du piquet {}".format(i+1))
             y = input("")
             float_match = re.search(float_pattern, y)
             if (float_match != None):
@@ -80,7 +80,7 @@ def getPointsPosition():
 
         # insert point into the shape list
         shape.append(Point(x,y))
-        print("Picket planté !")
+        print("Piquet planté !")
         print("\n")
 
 
